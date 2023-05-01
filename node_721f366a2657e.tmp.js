@@ -31,7 +31,7 @@ app.post('/add', function(req, res) {
 
 });
 
-const port = 8080;
+const port = 80;
 app.listen(port, function( ) {
     console.log('load server in ' + port);
 });
